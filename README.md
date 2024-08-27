@@ -61,9 +61,11 @@ pip install openpyxl
 Here’s how an Excel file might look before and after processing:
 
 Before Processing:
+
 ![alt text](ExampleBefore.png)
 
 After Processing:
+
 ![alt text](ExampleAfter.png)
 
 ## How it Works
