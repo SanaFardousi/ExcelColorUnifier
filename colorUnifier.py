@@ -90,8 +90,7 @@ orange = ['FFFFFF00','FFED7D31','ED7D32', 'FFBF00', 'FBE5D6', 'FFF2CC', 'F8CBAD'
 red = ['FFC00000', 'FFFF0000', '853C0C', 'FFC0504D', 'D99694', 'F2DBDB', '953735', 'E6B9B8', '652523']
 
 ### Notice that some of the color codes have 6 characters and others have 8, this is because openpyxl treats Excel theme colors and standered colors differently
-# read "https://stackoverflow.com/questions/72831896/openpyxl-workbook-theme-colors-not-standard-for-excel"
-# check ReadMe file for more on this
+# read "https://stackoverflow.com/questions/72831896/openpyxl-workbook-theme-colors-not-standard-for-excel" 
 
 # This function checks if the cell color matches any of the specified shades of red, blue, green, or orange.
 # If a match is found, it changes the cell color to a specific shade of the identified color.
@@ -128,7 +127,7 @@ for f in nameList:
             if(isinstance(index, int)):
                 color = theme_and_tint_to_rgb(wb, int(index), tint)
                 unifyColors(cell, color)
-            else:
+            else: # if it isn't an integer, then it's the color code 
                 unifyColors(cell, index)
 
     wb.save(f)
