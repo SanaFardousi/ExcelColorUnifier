@@ -9,6 +9,7 @@ This Python script is designed to unify cell colors in Excel spreadsheets (.xlsx
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example](#example)
 - [How it Works](#how-it-works)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -54,6 +55,16 @@ pip install openpyxl
    python your_script.py
    ```
 3. The script will save the modified Excel files in their original format within the same directory as the input files.
+
+## Example
+
+Here’s how an Excel file might look before and after processing:
+
+Before Processing:
+![alt text](ExampleBefore.png)
+
+After Processing:
+![alt text](ExampleAfter.png)
 
 ## How it Works
 
