@@ -58,7 +58,7 @@ pip install openpyxl
 
 ## Example
 
-Here’s how an Excel file might look before and after processing:
+Here’s how the Excel file in `sample files.zip` looks before and after processing:
 
 Before Processing:
 
