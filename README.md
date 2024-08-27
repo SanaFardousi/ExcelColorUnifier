@@ -37,12 +37,12 @@ pip install openpyxl
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/excel-color-unifier.git
+   git clone https://github.com/SanaFardousi/ExcelColorUnifier.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd excel-color-unifier
+   cd ExcelColorUnifier
    ```
 
 3. Ensure you have the required packages installed.
@@ -52,7 +52,7 @@ pip install openpyxl
 1. Prepare an Excel file or a zip folder containing multiple Excel files named `sample files.zip` in the root directory of the project.
 2. Run the script:
    ```bash
-   python your_script.py
+   python colorUnifier.py
    ```
 3. The script will save the modified Excel files in their original format within the same directory as the input files.
 
@@ -73,7 +73,7 @@ After Processing:
 - The script uses `openpyxl` to load workbooks.
 - Each cell's color is checked against predefined lists of color codes for red, blue, green, and orange.
 - If a cell matches a specific shade, it is changed to the designated standard color.
-- The modified workbooks are then saved back to their respective files.
+- The modified workbooks are then saved.
 
 ### Important Note
 
